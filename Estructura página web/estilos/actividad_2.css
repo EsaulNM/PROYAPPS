@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.encabezado,
+.pie_pagina {
+    background-color:orange;
+    color: black;
+    height: 100px;
+}
+
+.encabezado>h1 {
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.pie_pagina>p {
+    font-size: 25px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.clearfix {
+    display: flex;
+    height: 300px;
+    margin-bottom: auto;
+}
+
+.menu {
+    width: 25%;
+}
+
+ul {
+    list-style: none;
+    color: white;
+}
+
+li {
+    font-size: 15px;
+    width: 85%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: #34b5e5;
+}
+
+.contenido {
+    width: 75%;
+    background-color: lightblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contenido>h1 {
+    font-size: 50px;
+}
+
+.contenido>p {
+    font-size: 20px;
+}
+
+.pie_pagina>p {
+    margin-top: auto;
+}
+
+/*Formulario de asistencia técnica*/
+.main {
+    padding-left: 20px;
+}
